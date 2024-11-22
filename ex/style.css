@@ -1,0 +1,168 @@
+body {
+    margin: 0%;
+    
+        font-family: "Ubuntu", serif;
+        font-weight: 400;
+        font-style: normal; 
+}
+.header{
+    background-color:#bc2df3;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 50px;
+}
+.logo{
+    width: 80px;
+}
+.links a{
+    text-decoration: none;
+    color: #ffffff;
+    padding: 5px 15px;
+    border-radius: 15px;
+    
+}
+.btn{
+    background-color: #0cf873;
+    border: none;
+    border-radius:  15px;
+    padding: 5px 15px;
+
+}
+.btn:hover {
+    background-color: #05b251;
+}
+    .links a:hover{
+        color: #000000;
+    }
+  
+    .landing-page .lolo{
+        width: 550px;
+    }
+   
+    .landing-page {
+        background-color: #bc2df3;
+        display: flex;
+        justify-content: space-between;
+        padding: 25px 50px;
+        align-items: center;
+       color: #ffffff;
+       border-radius: 0 0 50px 50px;
+    }
+ 
+
+    
+    .search input{
+        border-radius: 50px;
+        border: none;
+        outline: none;
+        height: 30px;
+        padding: 0 10px;
+    }
+    .search  button{
+        position: absolute;
+        left: 200px;
+        height: 30px;
+    }
+    img{
+        border-radius: 20px;
+        width: 250px;
+    }
+    .Trending{
+        padding: 15px 50px;
+    }
+.trendingheader{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.trendingheader h1{
+    margin: 0;
+}
+.Trending span{
+    color: #0cf873;
+    text-transform: uppercase;
+    font-size: 14px;
+}
+.trendingContainer {
+    margin: auto;
+    max-width: 1300px;
+    margin-top: 100px;
+}
+
+.trendingHeader, .mostHeader {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    align-items: center;
+    padding-bottom: 40px;
+    
+}
+
+.trendingHeader h1, .mostHeader h1, .categoryHeader h1 {
+    margin-top: 0;
+}
+
+.trendingContainer span, .mostContainer span, .categoryHeader span {
+    text-transform: uppercase;
+    color: #EE626B;
+    font-weight: 600;
+}
+
+.trendingCard, .mostCards, .categoryCards{
+    display: flex;
+    justify-content: space-between;
+}
+
+.trendingCard .card {
+    position: relative;
+
+}
+.trendingCard .card img {
+    border-radius: 20px;
+}
+
+.trendingCard .card .cardInfo {
+    position: absolute;
+    top: 200px;
+    width: 100%;
+    background-color: #EEEEEE;
+    border-radius: 0 0 20px 20px;
+    padding-top: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.trendingCard .card .cardName {
+    padding: 0 20px;
+}
+
+.trendingCard .cardName h3 {
+    margin-top: 0;
+}
+
+.trendingCard .cardName p {
+    color: gray;
+    margin-bottom: 0;
+}
+
+
+.trendingCard .cardInfo .icon img {
+    width: 50px;
+    transition: .3s;
+}
+
+.trendingCard .cardInfo .icon {
+    margin-right: 20px;
+}
+
+.trendingCard .cardInfo img:hover{
+    transform: scale(1.3);
+}
+
+
+
+
+
+
